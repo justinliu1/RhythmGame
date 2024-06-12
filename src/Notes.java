@@ -12,7 +12,7 @@ public class Notes {
     public Notes(int lane) {
         this.lane = lane;
         this.xCoord = 463.0;
-        this.yCoord = 244.0;
+        this.yCoord = 250.0;
 
         try {
             note = ImageIO.read(getClass().getResource("/note.png"));
@@ -64,5 +64,4 @@ public class Notes {
                 Double.compare(other.xCoord, xCoord) == 0 &&
                 Double.compare(other.yCoord, yCoord) == 0;
     }
-
 }

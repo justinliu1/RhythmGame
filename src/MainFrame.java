@@ -5,16 +5,19 @@ public class MainFrame implements Runnable {
     private GraphicsPanel panel;
 
     public MainFrame() {
+        panel = new GraphicsPanel(); // Create instance of GraphicsPanel
+
         SwingUtilities.invokeLater(() -> {
-            JFrame frame = new JFrame("Rhythm Game");
-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.setSize(960, 540);
-            frame.setLocationRelativeTo(null);
+            JFrame mainFrame = new JFrame("Rhythm Game");
+            mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            mainFrame.setSize(960, 540);
+            mainFrame.setLocationRelativeTo(null);
 
             panel = new GraphicsPanel();
-            frame.add(panel);
+            mainFrame.setContentPane(panel);
 
-            frame.setVisible(true);
+            mainFrame.setVisible(true);
+            panel.requestFocusInWindow();
         });
 
         Thread thread = new Thread(this);
@@ -23,7 +26,9 @@ public class MainFrame implements Runnable {
 
     public void run() {
         while (true) {
-            SwingUtilities.invokeLater(() -> panel.repaint());
+            if (panel != null) {
+                SwingUtilities.invokeLater(() -> panel.repaint());
+            }
             try {
                 Thread.sleep(16);
             } catch (InterruptedException e) {

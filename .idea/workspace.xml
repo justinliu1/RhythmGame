@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2586b354-6b14-4de5-9bcc-f01cc6a97584" name="Changes" comment="Kinda working">
-      <change afterPath="$PROJECT_DIR$/src/Direction.java" afterDir="false" />
+    <list default="true" id="2586b354-6b14-4de5-9bcc-f01cc6a97584" name="Changes" comment="Working game">
+      <change afterPath="$PROJECT_DIR$/src/EndFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StartFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphicsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicsPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/background.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +64,20 @@
       <option name="project" value="LOCAL" />
       <updated>1717996672649</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Working game">
+      <option name="closed" value="true" />
+      <created>1718088038184</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718088038184</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kinda working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kinda working" />
+    <MESSAGE value="Working game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working game" />
   </component>
 </project>
